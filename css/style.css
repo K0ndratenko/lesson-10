@@ -42,3 +42,122 @@ body {
   /* font-size: 0px; */
 }
 
+.our-impact {
+  background-color: #29c3be;
+  background: #29c3be url("/img/background.png") 658px 0 / auto auto no-repeat;
+}
+.main__our-impact {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.title-block.one {
+  background-color: #000;
+  border: 2px solid red;
+}
+.our-impact__headers {
+  display: inline-block;
+  margin: 112px 111px 79px 210px;
+  max-width: 411px;
+}
+.title-block__sub-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 33px;
+}
+.title-block__sub-title::before {
+  content: url("/img/icon.svg");
+  margin-right: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.title-block__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
+}
+.our-impact__img {
+  margin: -80px 0 0 0; /* это нормально что картинка вылазит из БЕМ блока ? */
+}
+.row-items {
+}
+.row-items__wrap-block {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+.row-items__wrap-block:last-child {
+  margin-right: 0px;
+}
+
+.our-impact__desc-items {
+  max-width: 1020px;
+  margin-left: 210px;
+  /* margin: 0 auto; */
+  padding-bottom: 212px;
+}
+.our-impact__desc-items {
+}
+
+.row-items__icon {
+  margin-right: 11px;
+  max-width: 76px;
+  max-height: 76px;
+}
+
+.row-items__number {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fff;
+  width: 150px;
+}
+.row-items__name {
+  color: #5d62b5;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  width: 150px;
+}
+
+.make-an-appointment {
+  background-color: #5d62b5;
+  border-radius: 20px;
+}
+.main__appointment {
+  max-width: 1020px;
+  margin: 0 auto;
+  margin-top: -75px;
+}
+.make-an-appointment__text {
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  display: inline-block;
+  max-width: 562px;
+  padding: 43px 0 46px 70px;
+  margin-right: 102px;
+}
+.make-an-appointment__link {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #f2726f;
+  width: 210px;
+  height: 48px;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-top: -30px;
+}
